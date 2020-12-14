@@ -14,6 +14,9 @@ POJO = Plain Java Object.
   - EJB跨虚拟机远程调用？共享组件？RMI的实现？
   - EE xml web支持，通过xml实现简单的SOAP访问，基于XML 双向交互,这里不只简单的展示，还可用于服务之间的交互协议设定(如果足够简化)
 
+## TODO
+https://docs.oracle.com/javaee/7/tutorial/overview007.htm
+
 ## ps.
 * EJB 是否可以实现多虚拟机共享一个服务。
 SOAP 简单对象访问协议
