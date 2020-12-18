@@ -8,7 +8,8 @@ POJO = Plain Java Object.
 
 通过对OpenJdk-15和JavaSE的一些对比，
 在openJdk确实取消了javax.annotation.*包中的一些注解。针对JavaSE的企业收费看来不可避免了。
-而SE1.8以后的JavaJre的运行环境，而且没有相应的javaJre下载途径，这里可以确定的是如果是使用了JavaSE某些特性，服务端的Open-JDK及运行环境极有可能导致某些依赖缺失。
+这里可以确定的是如果是使用了JavaSE某些特性，服务端的Open-JDK及运行环境极有可能导致某些依赖缺失。
+OpenJDK和OpenJRE运行环境,应该在安装时包含两者,这里不确定，后续验证下运行时的环境选择。
 
 ## EE 分层应用架构
   分组件，构建可伸缩扩展的应用。
