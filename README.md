@@ -1,1 +1,6 @@
-# Welcome to GitHub Pages
+---
+layout: post
+title: Welcome
+---
+
+#Welcome to GitHub Pages
