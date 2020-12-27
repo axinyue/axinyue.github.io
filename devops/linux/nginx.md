@@ -42,3 +42,5 @@ http {
 
 参考
 * [Nginx Content Caching](https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/)
+
+Tip: 代一下理自己的github.io站点
