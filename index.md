@@ -5,7 +5,7 @@
 * [C/C++](develoer/C/main.c.md)
 
 ### DevOps
-* Linux
+* [Linux](devops/linux/main_linux.md)
 
 ## Help
 * [Markdown Syntax](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
