@@ -2,3 +2,4 @@
 [Nginx](nginx.md)
 
 [Ansible](ansible.md)
+[Zabbix](zabbix.md)
