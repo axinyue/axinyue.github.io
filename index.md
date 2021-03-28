@@ -3,6 +3,7 @@
 ### Developer
 * [Java](developer/Java/main_java.md)
 * [C/C++](develoer/C/main.c.md)
+* [Python](developer/python/main_py.md)
 
 ### DevOps
 * [Linux](devops/linux/main_linux.md)
