@@ -2,7 +2,7 @@
 ### [axinyue.club](http://axinyue.club)
 ### Developer
 * [Java](developer/Java/main_java.md)
-* [C/C++](develoer/C/main.c.md)
+* [C/C++](developer/C/main.c.md)
 * [Python](developer/python/main_py.md)
 
 ### DevOps
