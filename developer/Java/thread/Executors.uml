@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.Executors</OriginalElement>
+  <nodes>
+    <node x="395.2777777777778" y="206.0">java.util.concurrent.AbstractExecutorService</node>
+    <node x="262.0277777777778" y="0.0">java.util.concurrent.Executor</node>
+    <node x="12.0" y="613.0">java.util.concurrent.Executors.DefaultThreadFactory</node>
+    <node x="135.27777777777777" y="309.0">java.util.concurrent.ThreadPoolExecutor</node>
+    <node x="41.25" y="412.0">java.util.concurrent.ScheduledThreadPoolExecutor</node>
+    <node x="277.0" y="510.0">java.util.concurrent.Executors</node>
+    <node x="695.2777777777778" y="309.0">java.util.concurrent.ForkJoinPool</node>
+    <node x="347.27777777777777" y="309.0">java.util.concurrent.Executors.FinalizableDelegatedExecutorService</node>
+    <node x="0.0" y="206.0">java.util.concurrent.ScheduledExecutorService</node>
+    <node x="0.0" y="716.0">java.util.concurrent.Executors.PrivilegedThreadFactory</node>
+    <node x="40.0" y="510.0">java.util.concurrent.ThreadFactory</node>
+    <node x="234.02777777777783" y="103.0">java.util.concurrent.ExecutorService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.AbstractExecutorService" target="java.util.concurrent.ExecutorService">
+      <point x="5.6843418860808015E-14" y="-26.5" />
+      <point x="511.2777777777779" y="181.0" />
+      <point x="360.0277777777778" y="181.0" />
+      <point x="42.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool" target="java.util.concurrent.AbstractExecutorService">
+      <point x="0.0" y="-26.5" />
+      <point x="767.2777777777778" y="284.0" />
+      <point x="588.6111111111111" y="284.0" />
+      <point x="77.33333333333331" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ExecutorService" target="java.util.concurrent.Executor">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor" target="java.util.concurrent.ScheduledExecutorService">
+      <point x="-66.0" y="-26.5" />
+      <point x="107.25" y="387.0" />
+      <point x="119.99999999999997" y="387.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledExecutorService" target="java.util.concurrent.ExecutorService">
+      <point x="0.0" y="-26.5" />
+      <point x="120.0" y="181.0" />
+      <point x="276.0277777777778" y="181.0" />
+      <point x="-42.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor" target="java.util.concurrent.ThreadPoolExecutor">
+      <point x="66.0" y="-26.5" />
+      <point x="239.25" y="387.0" />
+      <point x="231.27777777777777" y="387.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DefaultThreadFactory" target="java.util.concurrent.ThreadFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.FinalizableDelegatedExecutorService" target="java.util.concurrent.AbstractExecutorService">
+      <point x="5.6843418860808015E-14" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedThreadFactory" target="java.util.concurrent.Executors.DefaultThreadFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor" target="java.util.concurrent.AbstractExecutorService">
+      <point x="0.0" y="-26.5" />
+      <point x="231.27777777777777" y="284.0" />
+      <point x="433.9444444444445" y="284.0" />
+      <point x="-77.33333333333331" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.044508670520231" x="652.4435934802513" y="354.338682899834" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
