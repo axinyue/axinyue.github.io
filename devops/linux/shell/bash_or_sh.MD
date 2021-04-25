@@ -70,10 +70,6 @@ if [ $AGE -lt 18 ];then
 else
     echo "grown-man"
 fi
-
-
-
-
 ```
 
 see more: 
