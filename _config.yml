@@ -1,3 +1,2 @@
 theme: jekyll-theme-minimal
-markdown:
-  no_fenced_code_blocks: true
+markdown: GFM
