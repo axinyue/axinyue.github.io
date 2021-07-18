@@ -5,7 +5,10 @@ linux: centos
 
 ## Install Docker-Compose
 ```
-# 已添加docker-ce repo可通过yum命令安装.
+# 第一种方式，下载
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+# 第二种方式，可通过yum命令安装，部分镜像包含有docker-compose.
 sudo yum install -y docker-compose
 ```
 

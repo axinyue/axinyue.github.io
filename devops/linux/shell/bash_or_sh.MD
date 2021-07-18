@@ -33,6 +33,7 @@ hello.sh [arg1] [arg2] [arg..]
 # use argements in shell
 NAME=$1
 AGE=$2
+
 echo "$NAME-$AGE"
 
 # Decision Making
@@ -72,5 +73,33 @@ else
 fi
 ```
 
+常用操作：
+```
+$@  获取所有命令行参数
+args=("$@")  命令行参数转换为数组
+
+# 遍历数组
+for arg in ${args[@]};do
+  echo arg
+done
+
+# 转换数组, 
+str="1 2 3"
+($str)
+
+# 关于IFS
+IFS保存默认的分割字符，可以通过修改IFS的值修改分割符
+
+# 获取时间戳
+date +%s
+# 获取纳秒
+date +%s%N
+
+# ssh登录并远程执行命令
+ssh user@host "mysql -uUser -pPassword -e\"show databases\"" > result.txt
+
+
+
+```
 see more: 
 * https://www.learnshell.org/
